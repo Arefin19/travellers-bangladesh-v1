@@ -4,13 +4,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: '**',
       },
     ],
-  },
-  // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
   },
 }
 
